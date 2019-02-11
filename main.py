@@ -2,7 +2,7 @@ from Informador import informador
 
 Informador = informador()
 Informador.scrapping()
-print(Informador.lista)
+Informador.to_json()
 
 
 # #p3 install )Importar las dos librerias
